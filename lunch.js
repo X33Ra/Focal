@@ -19,7 +19,7 @@ function whatToDoForLunch(hungry, availableTime) {
   if (hungry == true && availableTime <= 20 )
   console.log('Eat')
 
-  else if ((hungry == false) && (availableTime <= 30 || availableTime >= 20))
+  else if ((hungry == false) && availableTime <= 30 )
   console.log('You have 30 minutes just do work')
 
   else if (hungry == true && availableTime == 50 )
