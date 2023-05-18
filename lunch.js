@@ -13,18 +13,19 @@
  * in minutes.
  */
 
-function whatToDoForLunch(hungry, availableTime) {
+
+const whatToDoForLunch = (hungry, availableTime) => {
   console.log("I don't know what to do!");
 
-  if (hungry == true && availableTime <= 20 )
-  console.log('Eat')
+  if (hungry === true && availableTime <= 20)
+    console.log('Eat');
 
-  else if ((hungry == false) && availableTime <= 30 )
-  console.log('You have 30 minutes just do work')
+  else if ((hungry === false) && availableTime <= 30)
+    console.log('You have 30 minutes just do work');
 
-  else if (hungry == true && availableTime == 50 )
-  console.log('you got 50 minutes work abit then eat later')
-}
+  else if (hungry === true && availableTime === 50)
+    console.log('you got 50 minutes work abit then eat later');
+};
 
 
 /*
