@@ -1,26 +1,11 @@
+let myVar = "global";
 
-//----------------------------------------------------------------------------------------
+const myFunction = function() {
+  let myVar = "local";
 
-// FUNCTION IMPLEMENTATION
-
-const sum = function(a, b) {
-  return a + b;
+  console.log("inside myFunction, myVar is:", myVar);
 };
 
-// TEST CODE
-console.assert(sum(1, 2) === 3);
-console.assert(sum(1, 20) === 3); // bad / incorrect assertion, and we see it fail!
+myFunction();
 
-
-//----------------------------------------------------------------------------------------
-
-// FUNCTION IMPLEMENTATION
-
-const sumBuggy = function(a, b) {
-  return a * b;
-};
-
-// TEST CODE
-console.assert(sumBuggy(1, 2) === 3); // fails, because bug!
-
-
+console.log("outside myFunction, myVar is:", myVar);
