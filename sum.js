@@ -7,6 +7,6 @@ let num2 = Number(args[3]);  // Access the second argument value
 console.log({
   sum: num1 + num2,
 });
-console.log(args);
+
 
 
