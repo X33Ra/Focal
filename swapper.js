@@ -18,6 +18,9 @@ const swapper = function (key1, object1, key2, object2) {
   // Fetch the value stored in key1 in object1
   const value1 = object1[key1];
 
+  // Store the value in key2 of object2
+  object2[key2] = value1;
+
   // Put your solution here
 
   console.log("object1: ", object1);
