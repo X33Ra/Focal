@@ -12,7 +12,7 @@
 // take the original value stored in key2 of object2, and store that in key1 of object1.
 // not need to return anything.
 
-const swapper = function (key1, object1, key2, object2) {
+const swapper = function(key1, object1, key2, object2) {
   console.log("Swap!");
 
   // Fetch the value stored in key1 in object1
