@@ -30,5 +30,5 @@ class Pizza {
 let pizza = new Pizza();
 
 console.log(`Pizza Price: ${pizza.price}`);
-pizza.size = 'm';
+pizza.size = 'l';
 console.log(pizza.size);
